@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    /* margin: 70px; */
+    padding: 0;
+    background-color: #ffffff;
+    
+}
+
+.body2{
+    background-image: url("background_nigth.jpg");
+    background-size:cover; /* Escala la imagen para cubrir todo el fondo */
+    background-position: center;
+
+    position: relative; /* Importante para el posicionamiento absoluto */
+    width: 100%;
+    height: 60vh; /* Establece el contenedor al 100% del viewport */
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    background-color: #d8d5d551;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .left-content img {
+    width: 250px; /* Ancho deseado para la imagen */
+    height: auto; /* Para mantener la proporción */
+}
+
+
+.container h1 {
+    color: #fff;
+    text-align: center;
+}
+.container .search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+
+.container .search-input {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #fffdfd;
+    border-radius: 5px 0 0 5px;
+    background-color: #ffffff;
+}
+
+.container .search-input:focus {
+    outline: none; /* Elimina el contorno al hacer clic */
+    border-color: transparent; /* Establece el color del borde como transparente al hacer clic */
+    background-color: #ffffff;
+}
+
+
+.container .btn{
+    padding: 10px 20px;
+    width: 15%;
+    background-color: rgb(24, 41, 69);
+}
+
+.container .btn:hover{
+    color: black;
+    background-color: rgb(60, 104, 173);
+}
+
+.results {
+    list-style-type: none;
+    padding: 0;
+}
+.result-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.result-item:last-child {
+    border-bottom: none;
+}
+
+.result-item p {
+    text-align: justify;
+}
+
+.container-2 {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    /* border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    
+}
+
+.container-2 h5 {
+    color: rgb(0, 0, 0);
+}
+
+.container-2 h5:hover{
+    color: rgb(3, 128, 218);
+}
+
+.container-2 .file-info {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.69);
+    padding: 20px 10px 20px 20px;
+    margin-bottom: 20px; /* Agregar margen inferior para separar los archivos */
+}
+
+
+.container-2 .file-info .p{
+    text-align: justify;
+}
+
+
+
